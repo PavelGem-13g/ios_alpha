@@ -24,7 +24,7 @@ final class ViewController: UIViewController {
             }
             //let str = String(data:data, encoding: .utf8)
             //print ("Полученные данные: \(str ?? "")")
-            let  decoder = JSONDecoder()
+            let decoder = JSONDecoder()
             decoder.keyDecodingStrategy = .convertFromSnakeCase
             //
             let model = try! decoder.decode([BeerDTO].self, from: data)
@@ -39,5 +39,5 @@ struct BeerDTO :Decodable {
     let id: Int
     let name: String
     let tagline: String
-    let imageURL: URL
+    let imageUrl: URL
 }
