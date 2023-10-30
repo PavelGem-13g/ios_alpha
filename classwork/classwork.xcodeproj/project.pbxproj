@@ -15,6 +15,7 @@
 		E9A7C4352AF00944002F6D69 /* BeerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7C4342AF00944002F6D69 /* BeerDTO.swift */; };
 		E9A7C4372AF00953002F6D69 /* BeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7C4362AF00953002F6D69 /* BeerService.swift */; };
 		E9A7C4392AF00E7B002F6D69 /* BeerTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7C4382AF00E7B002F6D69 /* BeerTableManager.swift */; };
+		E9A7C43B2AF01176002F6D69 /* BeerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7C43A2AF01176002F6D69 /* BeerTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E9A7C4342AF00944002F6D69 /* BeerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDTO.swift; sourceTree = "<group>"; };
 		E9A7C4362AF00953002F6D69 /* BeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerService.swift; sourceTree = "<group>"; };
 		E9A7C4382AF00E7B002F6D69 /* BeerTableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableManager.swift; sourceTree = "<group>"; };
+		E9A7C43A2AF01176002F6D69 /* BeerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				E9A7C4342AF00944002F6D69 /* BeerDTO.swift */,
 				E9A7C4362AF00953002F6D69 /* BeerService.swift */,
 				E9A7C4382AF00E7B002F6D69 /* BeerTableManager.swift */,
+				E9A7C43A2AF01176002F6D69 /* BeerTableView.swift */,
 			);
 			path = BeerTable;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				E9A7C4392AF00E7B002F6D69 /* BeerTableManager.swift in Sources */,
 				E9A7C4352AF00944002F6D69 /* BeerDTO.swift in Sources */,
 				E96590DD2AD2D0A3007A8A28 /* AppDelegate.swift in Sources */,
+				E9A7C43B2AF01176002F6D69 /* BeerTableView.swift in Sources */,
 				E96590DF2AD2D0A3007A8A28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
