@@ -14,6 +14,7 @@
 		E96590E92AD2D0A4007A8A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96590E72AD2D0A4007A8A28 /* LaunchScreen.storyboard */; };
 		E9A7C4352AF00944002F6D69 /* BeerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7C4342AF00944002F6D69 /* BeerDTO.swift */; };
 		E9A7C4372AF00953002F6D69 /* BeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7C4362AF00953002F6D69 /* BeerService.swift */; };
+		E9A7C4392AF00E7B002F6D69 /* BeerTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7C4382AF00E7B002F6D69 /* BeerTableManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E96590EA2AD2D0A4007A8A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9A7C4342AF00944002F6D69 /* BeerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDTO.swift; sourceTree = "<group>"; };
 		E9A7C4362AF00953002F6D69 /* BeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerService.swift; sourceTree = "<group>"; };
+		E9A7C4382AF00E7B002F6D69 /* BeerTableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				E96590E02AD2D0A3007A8A28 /* ViewController.swift */,
 				E9A7C4342AF00944002F6D69 /* BeerDTO.swift */,
 				E9A7C4362AF00953002F6D69 /* BeerService.swift */,
+				E9A7C4382AF00E7B002F6D69 /* BeerTableManager.swift */,
 			);
 			path = BeerTable;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				E96590E12AD2D0A3007A8A28 /* ViewController.swift in Sources */,
 				E9A7C4372AF00953002F6D69 /* BeerService.swift in Sources */,
+				E9A7C4392AF00E7B002F6D69 /* BeerTableManager.swift in Sources */,
 				E9A7C4352AF00944002F6D69 /* BeerDTO.swift in Sources */,
 				E96590DD2AD2D0A3007A8A28 /* AppDelegate.swift in Sources */,
 				E96590DF2AD2D0A3007A8A28 /* SceneDelegate.swift in Sources */,

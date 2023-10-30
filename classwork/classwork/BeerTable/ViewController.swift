@@ -8,30 +8,12 @@
 import UIKit
 
 final class ViewController: UIViewController, UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        beerData.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let beer = beerData[indexPath.row]
-        var cell = UITableViewCell()
-        var configuration = cell.defaultContentConfiguration()
-//        configuration.image = UIImage
-        configuration.text = beer.name
-        configuration.secondaryText = beer.tagline
-        cell.contentConfiguration = configuration
-        return cell
-    }
-    
-    
     private lazy var tableView:UITableView = {
         let tableView = UITableView()
         tableView.backgroundColor = .cyan
-        tableView.dataSource = self
+        //tableView.dataSource = self
         return tableView
     }()
-
-    private var beerData: [BeerDTO] = [];
 
     override func viewDidLoad() {
         super.viewDidLoad()
