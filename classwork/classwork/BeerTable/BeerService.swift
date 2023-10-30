@@ -8,7 +8,12 @@
 import Foundation
 
 final class BeerService{
-    let decoder = JSONDecoder()
+    let decoder: JSONDecoder = {
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        return decoder
+    }()
+    
     let session: URLSession = {
         let sessionConfiguration = URLSessionConfiguration.default
         let session = URLSession(configuration: sessionConfiguration)
@@ -19,9 +24,7 @@ final class BeerService{
         let url:URL = URL(string: "https://api.punkapi.com/v2/beers")!
         URLSession.shared.dataTask(with: url, completionHandler: { data, response, error in
             guard let data = data, error == nil else { return }
-            let decoder = JSONDecoder()
-            decoder.keyDecodingStrategy = .convertFromSnakeCase
-            let beerData = try! decoder.decode([BeerDTO].self, from: data)
+            let beerData = try! self.decoder.decode([BeerDTO].self, from: data)
             completionHandler(beerData)
         }).resume()
     }

@@ -23,7 +23,6 @@ extension BeerTableManager: UITableViewDataSource{
         let beer = tableData[indexPath.row]
         var cell = UITableViewCell()
         var configuration = cell.defaultContentConfiguration()
-//        configuration.image = UIImage
         configuration.text = beer.name
         configuration.secondaryText = beer.tagline
         cell.contentConfiguration = configuration
