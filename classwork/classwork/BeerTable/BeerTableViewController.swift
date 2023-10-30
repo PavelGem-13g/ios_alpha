@@ -15,7 +15,16 @@ final class BeerTableViewController: UIViewController {
         return view
     }()
     
-    private let service = BeerService()
+    private let service: BeerServicing
+    
+    init(service: BeerService) {
+        self.service = service
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func loadView() {
         view = contentView
