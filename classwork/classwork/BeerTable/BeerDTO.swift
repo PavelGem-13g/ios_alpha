@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BeerDTO :Decodable {
+struct BeerDTO: Decodable {
     let id: Int
     let name: String
     let tagline: String
